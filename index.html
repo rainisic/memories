@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>僕と猫ちゃんのメモリー | Memories</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			background-color: #333333;
+			font-family: Consolas, "Microsoft YaHei", Sans-serif;
+		}
+
+		#main-section {
+			position: fixed;
+			width: 1280px;
+			height: 720px;
+			top: 50%;
+			left: 50%;
+			margin-top: -360px;
+			margin-left: -640px;
+		}
+
+		.book-page {
+			overflow: hidden;
+			background-color: #eee;
+		}
+
+		#memories .book-page.even {
+			background-image: url('images/cover.png');
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+
+		#memories .book-page.odd {
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+
+		.left-cover {
+			position: static;
+			height: 100%;
+			background: rgba(238, 238, 238, .6);
+			border-top-left-radius: 10px;
+			padding: 100px;
+		}
+
+		.left-cover .story {
+			font-size: 34px;
+			color: #222;
+			text-shadow: 4px 2px 5px gray;
+		}
+
+		.ro-image {
+			margin-left: -200px; margin-top: -10px;
+		}
+	</style>
+</head>
+<body>
+<section id="main-section">
+	<div id="memories">
+		<!-- Cover -->
+		<div id="cover-front-outside" class="hard book-page" style="background: url('images/cover.png');">
+			<div style="margin: 120px 0 40px 0; text-align: center; font-size: 42px; font-weight: bold; text-shadow:
+			 4px 3px 5px darkgray;">
+				僕と猫ちゃんのメモリアル
+			</div>
+			<div style="margin-right: 30px; text-align: right; font-size: 18px; font-weight: bold;">Made by: 冰</div>
+		</div>
+
+		<!-- BingBingMao -->
+		<div class="hard book-page">
+			<div class="left-cover">
+				<div class="story">Long long ago，有一个叫做冰冰猫的生物生活在这个世界上……</div>
+			</div>
+		</div>
+		<div class="book-page" style="background-color: #ddd;">
+			<img src="images/ice_cat.jpg" style="margin: 50px 0 0 80px; box-shadow: 0px 0px 50px gray;">
+		</div>
+
+		<!-- MaoTuoTuo -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">以及一个叫做猫坨坨的生物……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/maotuotuo.jpg" style="margin: 50px 0 0 80px; box-shadow: 0px 0px 50px gray;">
+		</div>
+
+		<!-- 相遇 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">有一天他们相遇了……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/xiangyu.jpg" class="ro-image">
+		</div>
+
+		<!-- Together -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">他们一起走过许多地方……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/together.jpg" class="ro-image">
+		</div>
+
+		<!-- 无人的小岛 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">无人的小岛……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/wurendao.jpg" class="ro-image">
+		</div>
+
+		<!-- 圣诞节的村庄 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">圣诞节的村庄……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/xuedi.jpg" class="ro-image">
+		</div>
+
+		<!-- 坐船旅行 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">他们一起坐船旅行……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/chuan.jpg" class="ro-image">
+		</div>
+
+		<!-- 见过许多美丽的地方 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">见过许多美丽的地方……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/hua.jpg" class="ro-image">
+		</div>
+
+
+		<!-- 寒冷 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">寒冷的地方……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/hanleng.jpg" class="ro-image">
+		</div>
+
+		<!-- 炎热 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">炎热的地方……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/yanre.jpg" class="ro-image">
+		</div>
+
+		<!-- 日出 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">他们一起看日出……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/richu.jpg" class="ro-image">
+		</div>
+
+		<!-- 日落 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">和日落……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/riluo.jpg" class="ro-image">
+		</div>
+
+		<!-- 天堂 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">甚至一起到过天堂……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/tiantang.jpg" class="ro-image">
+		</div>
+
+		<!-- 地狱 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">一起到过地狱……</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/diyu.jpg" class="ro-image">
+		</div>
+
+		<!-- 家 -->
+		<div class="book-page">
+			<div class="left-cover">
+				<div class="story">还找到了只属于他们自己的归处.</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/home.jpg" class="ro-image">
+		</div>
+
+		<!-- Birthday -->
+		<div id="cover-front-inside" class="hard book-page" style="background: url('images/cover.png');">
+			<div class="left-cover">
+				<div class="story">然后我实在编不下去了=w=剩下的To Be Continue吧</div>
+			</div>
+		</div>
+		<div class="book-page">
+			<img src="images/happy_birthday.png" style="margin-left: 50px; box-shadow: 10px 10px 20px gray;
+			 -webkit-transform: rotate(-30deg);">
+		</div>
+		<div class="book-page"></div>
+		<div class="hard book-page"></div>
+		<div class="hard book-page"></div>
+	</div>
+</section>
+<script data-main="js/config" src="libs/require/require-2.1.9.js" type="text/javascript"></script>
+<script type="text/javascript">requirejs( ["js/index/index.js"] );</script>
+</body>
+</html>
